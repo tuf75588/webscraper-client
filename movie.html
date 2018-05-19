@@ -9,6 +9,12 @@
     <style>
         main {
             margin-top: 2em;
+
+        }
+
+        img {
+            width: 100%;
+            height: auto;
         }
     </style>
     <title>Document</title>
@@ -16,19 +22,11 @@
 
 <body>
     <main class="container">
-        <form>
-            <fieldset class="form-group">
-                <label for="search">Search</label>
-                <input type="text" class="form-control" id="search" placeholder="Search for a movie">
-            </fieldset>
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
-        <ul class="list-group" id="results">
-        </ul>
+        <a href='/' class="btn btn-primary">Back To Search</a>
     </main>
-    <script src="app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/date-fns/1.29.0/date_fns.min.js" charset="utf-8"></script>
+
+    <script src="movie.js"></script>
 </body>
-
-
 
 </html>
